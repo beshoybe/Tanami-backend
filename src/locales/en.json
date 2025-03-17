@@ -1,0 +1,88 @@
+{
+    "validation": {
+      "failed": "Validation failed",
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email format. Please enter a valid email address."
+        },
+      "password": {
+          "required": "Password is required.",
+          "min": "Password must be at least 6 characters long.",
+          "max": "Password cannot exceed 100 characters.",
+          "confirm": "Passwords do not match."
+        },
+      "phone": {
+          "required": "Phone number is required.",
+          "invalid": "Invalid phone number format. Please enter a valid phone number."
+        },
+      "name": {
+          "required": "Name is required.",
+          "min": "Name must be at least 3 characters long.",
+          "max": "Name cannot exceed 100 characters."
+        },
+      "otp" :{
+        "required": "OTP is required.",
+        "invalid": "Invalid OTP format. Please enter a valid OTP.",
+        "min": "OTP must be at least 6 characters long.",
+        "max": "OTP cannot exceed 6 characters."
+      },
+      "id":{
+        "required": "ID is required."
+      },
+      "monthlyExpectedReturn":{
+        "required": "Monthly expected return is required."
+      },
+      "amount":{
+        "required": "Amount is required.",
+        "positive": "Amount must be positive.",
+        "invalid": "Invalid amount format. Please enter a valid amount."
+      },
+      "investmentId":{
+        "required": "Investment ID is required.",
+        "invalid": "Invalid investment ID format. Please enter a valid investment ID."
+      },
+      "currency":{
+        "required": "Currency is required.",
+        "invalid": "Invalid currency format. Please enter a valid currency."
+      },
+      "userInvestmentId":
+      {
+        "required": "User Investment ID is required."
+      },
+      "unknown_field": "Unknown field '{{field}}' is not allowed"
+
+    },
+    "errors": {
+        "internal_server": "Internal Server Error",
+        "emailNotRegistred":"Email is not registered",
+        "invalidPassword":"Invalid Password",
+        "emailAlreadyExists":"Email already exists",
+        "phoneAlreadyExists":"Phone number already exists",
+        "serverError":"Server Error",
+        "invalidOTP":"Invalid OTP",
+        "expiredOTP":"OTP is expired",
+        "investmentNotFound":"Investment not found",
+        "unauthorized":"Unauthorized, check you role with admin",
+        "invalidToken":"Invalid token",
+        "accessDenied":"Access denied",
+        "paymentNotFound":"Payment not found",
+        "paymentAlreadyCompleted":"Payment already completed",
+        "paymentFailed":"Payment failed"
+      },
+      "response":{
+        "userRegistred":"User registered successfully",
+        "userLoggedIn":"User logged in successfully",
+        "otpSent":"OTP sent successfully",
+        "passwordResetSuccess":"Password reset successfully",
+        "otpVerified":"OTP verified successfully",
+        "investmentCreated":"Investment created successfully",
+        "investmentUpdated":"Investment updated successfully",
+        "investmentDeleted":"Investment deleted successfully",
+        "investmentNotFound":"Investment not found",
+        "transactionCreated":"Transaction created successfully",
+        "transactionUpdated":"Transaction updated successfully",
+        "transactionDeleted":"Transaction deleted successfully",
+        "transactionNotFound":"Transaction not found"
+
+      }
+}
