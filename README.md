@@ -22,7 +22,6 @@ Tanami Backend is a scalable and secure backend system built with **Node.js**, *
 
   - Multi-currency support (USD, EUR, GBP)
   - ROI calculation
-  - Precision handling with `decimal.js`
 
 - 🗃 **Modular Architecture**
 
@@ -32,7 +31,7 @@ Tanami Backend is a scalable and secure backend system built with **Node.js**, *
 
 - ✅ **Data Validation & Security**
   - DTO-based validation using `class-validator`
-  - Secure logging and request sanitization
+  - Secure request sanitization
   - Soft delete implementation for safe data removal
 
 ## Tech Stack
